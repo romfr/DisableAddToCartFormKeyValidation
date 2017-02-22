@@ -1,0 +1,2 @@
+app/etc/modules/Rom_DisableAddToCartFormKeyValidation.xml app/etc/modules/Rom_DisableAddToCartFormKeyValidation.xml
+app/code/local/Rom/DisableAddToCartFormKeyValidation app/code/local/Rom/DisableAddToCartFormKeyValidation
