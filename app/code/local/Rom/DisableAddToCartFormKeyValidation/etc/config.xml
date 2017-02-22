@@ -5,13 +5,15 @@
             <version>0.1.0</version>
         </Rom_DisableAddToCartFormKeyValidation>
     </modules>
-    <routers>
-        <checkout>
-             <args>
-                 <modules>
-                     <Rom_DisableAddToCartFormKeyValidation before="Mage_Checkout">Rom_DisableAddToCartFormKeyValidation</Rom_DisableAddToCartFormKeyValidation>
-                 </modules>
-             </args>
-        </checkout>
-    </routers>
+    <frontend>
+        <routers>
+            <checkout>
+                 <args>
+                     <modules>
+                         <Rom_DisableAddToCartFormKeyValidation before="Mage_Checkout">Rom_DisableAddToCartFormKeyValidation</Rom_DisableAddToCartFormKeyValidation>
+                     </modules>
+                 </args>
+            </checkout>
+        </routers>
+    </frontend>
 </config>
